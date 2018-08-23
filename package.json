@@ -1,0 +1,27 @@
+{
+  "name": "weoil-web-rules",
+  "version": "1.0.0",
+  "description": "rule",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/request-promise": "^4.1.42",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "crypto-js": "^3.1.9-1",
+    "iconv-lite": "^0.4.24",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "repository": {
+    "type": "github",
+    "url": ""
+  }
+}

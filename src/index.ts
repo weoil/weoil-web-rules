@@ -13,6 +13,7 @@ import redtube from "./rule/redtube";
 import streamjav from "./rule/streamjav";
 import xhamster from "./rule/xhamster";
 import youjizz from "./rule/youjizz";
+import porn91 from './rule/91porn'
 
 const rules = {
     javdoe,
@@ -26,6 +27,7 @@ const rules = {
     redtube,
     streamjav,
     xhamster,
+    porn91,
     youjizz
   },
   defaultOptions: Rule.ruleOption = {

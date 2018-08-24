@@ -4,10 +4,16 @@
   "description": "rule",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build tsconfig.json"
   },
-  "author": "",
+  "author": "weoil",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weoil/weoil-web-rules.git"
+  },
+  "homepage": "https://github.com/weoil/weoil-web-rules",
   "devDependencies": {
     "@types/cheerio": "^0.22.8",
     "@types/request-promise": "^4.1.42",
@@ -19,9 +25,5 @@
     "iconv-lite": "^0.4.24",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
-  },
-  "repository": {
-    "type": "github",
-    "url": ""
   }
 }
